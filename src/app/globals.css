@@ -76,7 +76,7 @@ html {
     Esto asegura que todo el contenido del portal (modales y tooltips) 
     flote por encima de la aplicación.
   */
-  */
+  
   isolation: isolate;
 }
 
