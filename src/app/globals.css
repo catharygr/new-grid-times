@@ -121,16 +121,16 @@ table {
 
 /* TOKENS DE DISEÑO */
 html {
-  --color-white: #ffffff;
-  --color-offblack: #333333;
-  --color-gray-100: #f5f5f5;
-  --color-gray-300: #e0e0e0;
-  --color-gray-500: #9e9e9e;
-  --color-gray-700: #616161;
-  --color-gray-900: #212121;
-  --color-primary: #6200ea;
-  --color-secondary: #03dac6;
-  --color-urgent: #b00020;
+  --color-white: hsl(0deg 0% 100%);
+  --color-offblack: hsl(24deg 5% 6%);
+  --color-gray-100: hsl(40deg 12% 95%);
+  --color-gray-300: hsl(35deg 8% 80%);
+  --color-gray-500: hsl(30deg 4% 60%);
+  --color-gray-700: hsl(28deg 5% 40%);
+  --color-gray-900: hsl(24deg 6% 16%);
+  --color-primary: hsl(224deg 30% 40%);
+  --color-secondary: hsl(180deg 34% 37%);
+  --color-urgent: hsl(0deg 55% 54%);
 
   --font-weight-normal: 400;
   --font-weight-medium: 500;
@@ -196,4 +196,32 @@ button {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+@media (min-width: 48rem) {
+  /* Estilos para tablet y superiores */
+}
+
+@media (min-width: 64rem) {
+  /* Estilos para laptop y superiores */
+}
+
+@media (min-width: 90rem) {
+  /* Estilos para desktop y superiores */
+}
+
+@media (min-width: 48rem) and (max-width: 63.9375rem) {
+  /* Estilos solo para tablet */
+}
+
+:root {
+  --breakpoint-tablet-min: 550px;
+  --breakpoint-laptop-min: 1100px;
+  --breakpoint-desktop-min: 1500px;
+
+  --font-family-serif: "Crimson Pro", Georgia, serif;
+  --font-family-sans-serif: "Helvetica Neue", Helvetica,
+    "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic",
+    sans-serif;
+  --font-family-logo: "Chomsky";
 }
