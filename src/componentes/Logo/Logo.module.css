@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-a {
+.a {
   font-family: var(--font-family-logo);
   font-size: 3rem;
 }

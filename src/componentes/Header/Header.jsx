@@ -1,5 +1,6 @@
 import styles from "./Header.module.css";
 import { Menu, Search, User } from "react-feather";
+import Logo from "../Logo";
 
 export default function Header() {
   return (
@@ -14,9 +15,16 @@ export default function Header() {
               <Menu size={24} />
             </button>
           </div>
+          <div>
+            <button>
+              <User size={24} />
+            </button>
+          </div>
         </div>
       </div>
-      <div className={styles.mainHeader}></div>
+      <div className={styles.mainHeader}>
+        <Logo />
+      </div>
     </header>
   );
 }
