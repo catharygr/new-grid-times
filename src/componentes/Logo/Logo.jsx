@@ -11,7 +11,9 @@ export default function Logo(prosp) {
       >
         New Grid Times
       </Link>
-      <p className={styles.todaysDate}></p>
+      <p className={styles.todaysDate}>
+        {format(newDate(), "EEEE, MMM do, yyyy")}
+      </p>
     </div>
   );
 }
