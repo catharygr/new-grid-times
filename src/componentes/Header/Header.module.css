@@ -31,6 +31,13 @@
 }
 
 .desktopActionGroup {
+  display: none;
+}
+
+@media (min-width: 64rem) {
+  .desktopActionGroup {
+    display: flex;
+  }
 }
 
 .row {
