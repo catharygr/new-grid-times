@@ -15,8 +15,8 @@ export default function Header() {
               <Menu size={24} />
             </button>
           </div>
-          <div>
-            <button>
+          <div className={style.actionGroup}>
+            <button className={styles.btnUser}>
               <User size={24} />
             </button>
           </div>
