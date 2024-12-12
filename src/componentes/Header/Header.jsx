@@ -1,5 +1,6 @@
 import styles from "./Header.module.css";
 import { Menu, Search, User } from "react-feather";
+import { Link } from "react-router-dom";
 import Logo from "../Logo";
 
 export default function Header() {
@@ -32,6 +33,10 @@ export default function Header() {
           </button>
         </div>
         <Logo />
+        <div className={styles.subscribeWrapper}>
+          <button>Suscríbete</button>
+          <Link to="/">¿Ya eres suscriptor?</Link>
+        </div>
       </div>
     </header>
   );
