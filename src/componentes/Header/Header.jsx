@@ -34,7 +34,7 @@ export default function Header() {
         </div>
         <Logo />
         <div className={styles.subscribeWrapper}>
-          <button>Suscríbete</button>
+          <button className={styles.button}>Suscríbete</button>
           <Link
             className={styles.subLink}
             href="/"
