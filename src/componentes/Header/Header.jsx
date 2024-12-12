@@ -6,8 +6,8 @@ export default function Header() {
   return (
     <header>
       <div className={styles.superHeader}>
-        <div className={styles.mainHeader}></div>
         <div className={styles.row}>
+          <div className={styles.desktopActionGroup}></div>
           <div className={styles.actionGroup}>
             <button className={styles.btnSearch}>
               <Search size={24} />
@@ -23,6 +23,7 @@ export default function Header() {
           </div>
         </div>
       </div>
+      <div className={styles.mainHeader}></div>
       <div className={styles.mainHeader}>
         <Logo />
       </div>
