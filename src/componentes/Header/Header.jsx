@@ -10,15 +10,15 @@ export default function Header() {
         <div className={styles.row}>
           <div className={styles.actionGroup}>
             <button>
-              <Search size={24} />
+              <Search size={20} />
             </button>
             <button>
-              <Menu size={24} />
+              <Menu size={20} />
             </button>
           </div>
           <div className={styles.actionGroup}>
             <button>
-              <User size={24} />
+              <User size={20} />
             </button>
           </div>
         </div>
