@@ -6,6 +6,7 @@ export default function Header() {
   return (
     <header>
       <div className={styles.superHeader}>
+        <div className={styles.mainHeader}></div>
         <div className={styles.row}>
           <div className={styles.actionGroup}>
             <button className={styles.btnSearch}>
@@ -15,7 +16,7 @@ export default function Header() {
               <Menu size={24} />
             </button>
           </div>
-          <div className={style.actionGroup}>
+          <div className={styles.actionGroup}>
             <button className={styles.btnUser}>
               <User size={24} />
             </button>

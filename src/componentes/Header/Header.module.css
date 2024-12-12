@@ -4,6 +4,32 @@
   color: white;
 }
 
+.mainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 48px;
+}
+@media (min-width: 48rem) {
+  .mainHeader {
+    margin-top: 48px;
+    margin-bottom: 72px;
+  }
+}
+
+@media (min-width: 64rem) {
+  .mainHeader {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    justify-content: revert;
+    justify-items: start;
+    margin-top: 16px;
+    margin-bottom: 72px;
+  }
+}
+
 .row {
   display: flex;
   justify-content: space-between;
