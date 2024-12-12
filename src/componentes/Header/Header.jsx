@@ -8,10 +8,10 @@ export default function Header() {
       <div className={styles.superHeader}>
         <div className={styles.row}>
           <div className={styles.actionGroup}>
-            <button>
+            <button className={styles.btnSearch}>
               <Search size={24} />
             </button>
-            <button>
+            <button className={styles.btnMenu}>
               <Menu size={24} />
             </button>
           </div>
