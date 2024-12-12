@@ -12,3 +12,9 @@
   font-weight: var(--font-weight-medium);
   margin-top: -1rem;
 }
+
+@media (min-width: 48rem) {
+  .a {
+    font-size: 4rem;
+  }
+}

@@ -1,7 +1,7 @@
 import styles from "./Header.module.css";
 import { Menu, Search, User } from "react-feather";
-import { Link } from "react-router-dom";
 import Logo from "../Logo";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -9,15 +9,15 @@ export default function Header() {
       <div className={styles.superHeader}>
         <div className={styles.row}>
           <div className={styles.actionGroup}>
-            <button className={styles.btnSearch}>
+            <button>
               <Search size={24} />
             </button>
-            <button className={styles.btnMenu}>
+            <button>
               <Menu size={24} />
             </button>
           </div>
           <div className={styles.actionGroup}>
-            <button className={styles.btnUser}>
+            <button>
               <User size={24} />
             </button>
           </div>
@@ -35,7 +35,12 @@ export default function Header() {
         <Logo />
         <div className={styles.subscribeWrapper}>
           <button>Suscríbete</button>
-          <Link to="/">¿Ya eres suscriptor?</Link>
+          <Link
+            className={styles.subLink}
+            href="/"
+          >
+            ¿Ya eres suscriptor?
+          </Link>
         </div>
       </div>
     </header>
