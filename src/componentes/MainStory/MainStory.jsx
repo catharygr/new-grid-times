@@ -18,10 +18,10 @@ export default function MainStory({
         <picture>
           <source
             srcSet={gamePad2.src}
-            media="(min-width: 47.999rem)"
+            media="(max-width: 47.999rem)"
           />
           <source
-            media="(max-width: 48rem)"
+            media="(min-width: 48rem)"
             srcSet={gamePad.src}
           />
           <Image
