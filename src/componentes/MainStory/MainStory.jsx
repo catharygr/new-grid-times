@@ -13,7 +13,10 @@ export default function MainStory({
   ...delegated
 }) {
   return (
-    <div {...delegated}>
+    <article
+      className={styles.wrapper}
+      {...delegated}
+    >
       <Link href={`/story/${id}`}>
         <picture>
           <source
@@ -25,18 +28,19 @@ export default function MainStory({
             srcSet={gamePad.src}
           />
           <Image
+            className={styles.img}
             src={gamePad.src}
             alt={image.alt}
             width={gamePad.width}
             height={gamePad.height}
           />
         </picture>
-        <h2>{title}</h2>
+        <h2 className={styles.h2}>{title}</h2>
       </Link>
-      <p>
+      <p className={styles.p}>
         <span>{location}</span> - {abstract}
       </p>
       <Link href="/story">Continúa leyendo...</Link>
-    </div>
+    </article>
   );
 }
