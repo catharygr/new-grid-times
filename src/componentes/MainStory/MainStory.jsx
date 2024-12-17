@@ -38,7 +38,7 @@ export default function MainStory({
         <h2 className={styles.h2}>{title}</h2>
       </Link>
       <p className={styles.p}>
-        <span>{location}</span> - {abstract}
+        <span className={styles.location}>{location}</span> - {abstract}
       </p>
       <Link href="/story">Continúa leyendo...</Link>
     </article>
