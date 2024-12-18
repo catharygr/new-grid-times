@@ -12,10 +12,12 @@ export default function MainStoryGrid() {
       <section className={styles.secondaryStorySection}>
         <div className={styles.storyList}>
           {SECONDARY_STORIES.map((story) => (
-            <SecondaryStory
+            <div
+              className={styles.verticalStoryWrapper}
               key={story.id}
-              {...story}
-            />
+            >
+              <SecondaryStory {...story} />
+            </div>
           ))}
         </div>
       </section>
