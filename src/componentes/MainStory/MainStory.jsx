@@ -40,7 +40,12 @@ export default function MainStory({
       <p className={styles.p}>
         <span className={styles.location}>{location}</span> - {abstract}
       </p>
-      <Link href="/story">Continúa leyendo...</Link>
+      <Link
+        className={styles.readMore}
+        href="/story"
+      >
+        Continúa leyendo...
+      </Link>
     </article>
   );
 }

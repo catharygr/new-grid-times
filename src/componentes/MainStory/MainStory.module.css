@@ -23,3 +23,13 @@
 .location {
   text-transform: uppercase;
 }
+
+.readMore {
+  font-weight: var(--font-weight-medium);
+  font-style: italic;
+
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 1px;
+  }
+}
