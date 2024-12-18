@@ -1,5 +1,4 @@
 .wrapper {
-  position: relative;
   display: grid;
   grid-template-areas:
     "image heading"
@@ -11,6 +10,10 @@
 
 .img {
   grid-area: image;
+  display: block;
   width: 100%;
   height: auto;
+
+  border-radius: 4px;
+  object-fit: cover;
 }

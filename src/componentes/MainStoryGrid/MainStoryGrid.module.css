@@ -16,3 +16,8 @@
 .secondaryStoriesSection {
   grid-area: secondary-stories;
 }
+
+.storyList {
+  display: flex;
+  flex-direction: column;
+}

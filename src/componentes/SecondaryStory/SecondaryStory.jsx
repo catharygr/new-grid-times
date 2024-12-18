@@ -10,7 +10,7 @@ export default function SecondaryStory({
   abstract,
 }) {
   return (
-    <Link href={`/story/${id}`}>
+    <Link href={`/story/${id} `}>
       <article className={styles.wrapper}>
         <Image
           className={styles.img}
@@ -18,7 +18,6 @@ export default function SecondaryStory({
           alt={image.alt}
           priority
         />
-
         <h3>{title}</h3>
       </article>
     </Link>

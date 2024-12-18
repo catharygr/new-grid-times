@@ -15,7 +15,7 @@ export default function MainStory({
       className={styles.wrapper}
       {...delegated}
     >
-      <Link href={`/story/${id}`}>
+      <Link href={`/story/${id} `}>
         <Image
           className={styles.img}
           src={image.srcSmall}
