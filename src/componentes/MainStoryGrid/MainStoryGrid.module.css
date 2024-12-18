@@ -1,0 +1,18 @@
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "main-story"
+    "secondary-stories"
+    "opinion-stories"
+    "advertisement";
+  gap: 48px;
+  margin-bottom: 48px;
+}
+
+.mainStorySection {
+  grid-area: main-story;
+}
+
+.secondaryStoriesSection {
+  grid-area: secondary-stories;
+}
