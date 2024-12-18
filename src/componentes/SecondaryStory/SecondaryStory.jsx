@@ -2,13 +2,7 @@ import Link from "next/link";
 import styles from "./SecondaryStory.module.css";
 import Image from "next/image";
 
-export default function SecondaryStory({
-  id,
-  title,
-  image,
-  location,
-  abstract,
-}) {
+export default function SecondaryStory({ id, title, image, abstract }) {
   return (
     <Link href={`/story/${id} `}>
       <article className={styles.wrapper}>
@@ -18,7 +12,8 @@ export default function SecondaryStory({
           alt={image.alt}
           priority
         />
-        <h3>{title}</h3>
+        <h2 className={styles.hs}>{title}</h2>
+        <p className={styles.p}>{abstract}</p>
       </article>
     </Link>
   );

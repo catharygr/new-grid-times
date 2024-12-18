@@ -19,6 +19,12 @@
 .p {
   font-size: 1rem;
   margin-bottom: 1em;
+  white-space: pre-wrap;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+  line-clamp: 8;
+  overflow: hidden;
 }
 
 .location {
@@ -32,5 +38,18 @@
   &:hover {
     text-decoration: underline;
     text-underline-offset: 1px;
+  }
+}
+
+@media (min-width: 48rem) {
+  .p {
+    -webkit-line-clamp: 16;
+    line-clamp: 16;
+  }
+}
+@media (min-width: 64rem) {
+  .p {
+    -webkit-line-clamp: 10;
+    line-clamp: 10;
   }
 }
