@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function SecondaryStory({ id, title, image, abstract }) {
   return (
-    <Link href={`/story/${id} `}>
+    <Link href={`/story/${id}`}>
       <article className={styles.wrapper}>
         <Image
           className={styles.img}
@@ -13,7 +13,9 @@ export default function SecondaryStory({ id, title, image, abstract }) {
           priority
         />
         <h2 className={styles.hs}>{title}</h2>
-        <p className={styles.p}>{abstract}</p>
+        <div className={styles.abstractWrapper}>
+          <p className={styles.p}>{abstract}</p>
+        </div>
       </article>
     </Link>
   );
