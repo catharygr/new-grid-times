@@ -7,13 +7,22 @@
  * facilitar la concentración en el estilo, he colocado los datos aquí.
 
  */
+import gamepadsmoll from "@/app/assets/images/gamepad.jpg";
+import gamepadBig from "@/app/assets/images/gamepad@2x.jpg";
+import politiciansSmall from "@/app/assets/images/politicians.jpg";
+import politiciansBig from "@/app/assets/images/politicians@2x.png";
+import oldCarSmall from "@/app/assets/images/old-car.jpg";
+import oldCarBig from "@/app/assets/images/old-car@2x.jpg";
+import fashionSmall from "@/app/assets/images/fashion.jpg";
+import fashionBig from "@/app/assets/images/fashion@2x.jpg";
 
 export const MAIN_STORY = {
   id: "a",
   title:
     "Estudio: Los videojuegos mejoran los reflejos y el pensamiento crítico",
   image: {
-    src: "/images/gamepad.jpg",
+    srcSmall: gamepadsmoll,
+    srcBig: gamepadBig,
     alt: "Un gamepad de XBox, mostrado con iluminación dramática",
   },
   location: "San Francisco",
@@ -33,7 +42,8 @@ export const SECONDARY_STORIES = [
     id: "b",
     title: "Politicians scramble as court overrules invalid legislation",
     image: {
-      src: "/images/politicians.jpg",
+      srcSmall: politiciansSmall,
+      srcBig: politiciansBig,
       alt: "Lots of white men in suits listen apathetically to a presentation",
     },
     abstract: `In a surprising judgment that surprised no one, the New Amsterdam court of appeals finds Bill 234 unconstitutional, overturning one of the Modern Sovereign party's core legislative achievements. Now, lawmakers are working furiously to rewrite the law before the Royal Ascent next month.`,
@@ -42,7 +52,8 @@ export const SECONDARY_STORIES = [
     id: "c",
     title: "Vintage cars fetch a premium as car industry shifts gears",
     image: {
-      src: "/images/old-car.jpg",
+      srcSmall: oldCarSmall,
+      srcBig: oldCarBig,
       alt: "A vintage old Beetle (car), orange and with signs of wear",
     },
     abstract: `In a Landsdowne auction, a vintage 1900s beetle sold “as-is” for ȿ120,000, shattering expectations and records alike. As the automotive industry focuses on ALVs (Autonomous Levitated Vehicles), some enthusiasts are paying big bucks for a more traditional driving experience.`,
@@ -52,7 +63,8 @@ export const SECONDARY_STORIES = [
     title:
       "This season’s hottest fashions unveiled amidst designer controversy",
     image: {
-      src: "/images/fashion.jpg",
+      srcSmall: fashionSmall,
+      srcBig: fashionBig,
       alt: "A stylish woman carries a dozen shopping bags",
     },
     abstract: `Ludish Atvalatashia was in his 50s when he launched his first couture line. Famously, he worked as an engineer for Blue Rocket, and learned that many of his inventions were quite eye-catching on the runway. This week, though, whistleblowers from within his agency have revealed the toxic nature of their work environment.`,

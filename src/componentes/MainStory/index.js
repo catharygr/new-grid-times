@@ -1,2 +1,2 @@
-export * from "./MainStoryGrid";
-export { default } from "./MainStoryGrid";
+export * from "./MainStory";
+export { default } from "./MainStory";

@@ -1,6 +1,6 @@
 import { MAIN_STORY, OPINION_STORIES, SECONDARY_STORIES } from "@/data";
 import styles from "./MainStoryGrid.module.css";
-import MainStory from "../MainStory/MainStory";
+import MainStory from "../MainStory";
 import SecondaryStory from "../SecondaryStory";
 
 export default function MainStoryGrid() {

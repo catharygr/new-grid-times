@@ -225,3 +225,8 @@ a {
     sans-serif;
   --font-family-logo: "Chomsky";
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
