@@ -1,0 +1,20 @@
+.wrapper {
+  color: var(--color-gray-900);
+}
+
+.imgAvatar {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: right;
+  margin-left: 16px;
+}
+
+@media (min-width: 48rem) and (max-width: 63.9375rem) {
+  .imgAvatar {
+    float: revert;
+    margin-left: revert;
+  }
+}

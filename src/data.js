@@ -6,6 +6,10 @@ import oldCarSmall from "@/app/assets/images/old-car.jpg";
 import oldCarBig from "@/app/assets/images/old-car@2x.jpg";
 import fashionSmall from "@/app/assets/images/fashion.jpg";
 import fashionBig from "@/app/assets/images/fashion@2x.jpg";
+import avatarOne from "@/app/assets/images/avatar-stephen-abebe.jpg";
+import avatarTwo from "@/app/assets/images/avatar-mario-deluciano.jpg";
+import avatarThree from "@/app/assets/images/avatar-alice-smith.jpg";
+import avatarFour from "@/app/assets/images/avatar-rocko-pierce-stanley.jpg";
 
 export const MAIN_STORY = {
   id: "a",
@@ -66,26 +70,26 @@ export const OPINION_STORIES = [
   {
     id: "o-a",
     author: "Stephen Abebe",
-    avatar: "/images/avatar-stephen-abebe.jpg",
+    avatar: avatarOne,
     title:
       "¡Los humanos necesitan agua para sobrevivir, y tus plantas en maceta también!",
   },
   {
     id: "o-b",
     author: "Mario DeLuciano",
-    avatar: "/images/avatar-mario-deluciano.jpg",
+    avatar: avatarTwo,
     title: "¡Deportes! ¿El secreto para ganar en grande?",
   },
   {
     id: "o-c",
     author: "Alice Smith",
-    avatar: "/images/avatar-alice-smith.jpg",
+    avatar: avatarThree,
     title: "Por qué nunca volveré a comprar comestibles en persona",
   },
   {
     id: "o-d",
     author: "Rocko Pierce Stanley",
-    avatar: "/images/avatar-rocko-pierce-stanley.jpg",
+    avatar: avatarFour,
     title: "Predicción: La música disco volverá, con venganza",
   },
 ];

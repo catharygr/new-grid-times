@@ -1,8 +1,19 @@
+import Link from "next/link";
 import styles from "./OpinionStory.module.css";
-export default function OpinionStory({ story }) {
+import Image from "next/image";
+
+export default function OpinionStory({ id, title, author, avatar }) {
   return (
-    <div className="story opinion-story">
-      <h1>{story.title}</h1>
-    </div>
+    <Link href={`/story/${id}`}>
+      <article className={styles.wrapper}>
+        <Image
+          className={styles.imgAvatar}
+          src={avatar}
+          alt={author}
+          priority
+        />
+        <h1>{title}</h1>
+      </article>
+    </Link>
   );
 }
