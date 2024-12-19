@@ -1,15 +1,7 @@
 import Link from "next/link";
 import styles from "./MarketCard.module.css";
 import Image from "next/image";
-
-const STOCK_GRAPHS_BY_TICKER_SYMBOL = {
-  AAPL: "../../assets/images/stock-graph-up-1.svg",
-  AMC: "/images/stock-graph-up-2.svg",
-  ENB: "/images/stock-graph-down-1.svg",
-  GOOG: "/images/stock-graph-up-3.svg",
-  AMZN: "/images/stock-graph-down-2.svg",
-  MSFT: "/images/stock-graph-down-3.svg",
-};
+import { STOCK_GRAPHS_BY_TICKER_SYMBOL } from "@/data";
 
 export default function MarketCard({
   tickerSymbol,

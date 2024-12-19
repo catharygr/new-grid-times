@@ -10,6 +10,12 @@ import avatarOne from "@/app/assets/images/avatar-stephen-abebe.jpg";
 import avatarTwo from "@/app/assets/images/avatar-mario-deluciano.jpg";
 import avatarThree from "@/app/assets/images/avatar-alice-smith.jpg";
 import avatarFour from "@/app/assets/images/avatar-rocko-pierce-stanley.jpg";
+import AAPL from "@/app/assets/images/stock-graph-up-1.svg";
+import AMC from "@/app/assets/images/stock-graph-up-2.svg";
+import ENB from "@/app/assets/images/stock-graph-down-1.svg";
+import GOOG from "@/app/assets/images/stock-graph-up-3.svg";
+import AMZN from "@/app/assets/images/stock-graph-down-2.svg";
+import MSFT from "@/app/assets/images/stock-graph-down-3.svg";
 
 export const MAIN_STORY = {
   id: "a",
@@ -95,6 +101,15 @@ export const OPINION_STORIES = [
     title: "Predicción: La música disco volverá, con venganza",
   },
 ];
+
+export const STOCK_GRAPHS_BY_TICKER_SYMBOL = {
+  AAPL: AAPL,
+  AMC: AMC,
+  ENB: ENB,
+  GOOG: GOOG,
+  AMZN: AMZN,
+  MSFT: MSFT,
+};
 
 export const MARKET_DATA = [
   {
