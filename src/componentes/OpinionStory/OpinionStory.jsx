@@ -12,7 +12,10 @@ export default function OpinionStory({ id, title, author, avatar }) {
           alt={author}
           priority
         />
-        <h1>{title}</h1>
+        <div>
+          <p className={styles.p}>{author}</p>
+          <h3 className={styles.h3}>{title}</h3>
+        </div>
       </article>
     </Link>
   );
