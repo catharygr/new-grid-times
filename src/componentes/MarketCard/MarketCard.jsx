@@ -3,7 +3,7 @@ import styles from "./MarketCard.module.css";
 import Image from "next/image";
 
 const STOCK_GRAPHS_BY_TICKER_SYMBOL = {
-  AAPL: "/images/stock-graph-up-1.svg",
+  AAPL: "../../assets/images/stock-graph-up-1.svg",
   AMC: "/images/stock-graph-up-2.svg",
   ENB: "/images/stock-graph-down-1.svg",
   GOOG: "/images/stock-graph-up-3.svg",
@@ -26,11 +26,14 @@ export default function MarketCard({
       href={`/stocks/${tickerSymbol}`}
     >
       <div className={styles.row}>
-        <p>{tickerSymbol}</p>
+        <p className={styles.p}>{tickerSymbol}</p>
         <div className={styles.graphWrapper}>
           <Image
+            className={styles.graphImg}
             src={graphSrc}
             alt="Imagen stock"
+            width={40}
+            height={20}
             priority
           />
         </div>
