@@ -15,7 +15,14 @@ export default function SpecialtyStoryGrid() {
           Mercados
         </SectionTitle>
       </section>
-      <div></div>
+      <div>
+        {/* {MARKET_DATA.map((data) => (
+          <MarketCard
+            key={data.tickerSymbol}
+            {...data}
+          />
+        ))} */}
+      </div>
     </div>
   );
 }
