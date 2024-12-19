@@ -3,6 +3,7 @@ import styles from "./SecondaryStory.module.css";
 import Image from "next/image";
 
 export default function SecondaryStory({ id, title, image, abstract }) {
+  console.log("image", image);
   return (
     <Link href={`/story/${id}`}>
       <article className={styles.wrapper}>

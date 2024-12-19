@@ -1,12 +1,3 @@
-/**
- * En una aplicación real, estos datos probablemente vivirían en una base de datos,
- * y se obtendrían de una API, ya sea en tiempo de ejecución o en
- * tiempo de compilación.
- *
- * Este protecto se centra en CSS. Para
- * facilitar la concentración en el estilo, he colocado los datos aquí.
-
- */
 import gamepadsmoll from "@/app/assets/images/gamepad.jpg";
 import gamepadBig from "@/app/assets/images/gamepad@2x.jpg";
 import politiciansSmall from "@/app/assets/images/politicians.jpg";

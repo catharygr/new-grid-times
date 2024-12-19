@@ -29,3 +29,7 @@
     margin-bottom: 16px;
   }
 }
+
+.opinionStorySection {
+  grid-area: opinion-stories;
+}
