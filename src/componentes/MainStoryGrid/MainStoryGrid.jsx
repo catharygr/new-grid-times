@@ -3,6 +3,7 @@ import styles from "./MainStoryGrid.module.css";
 import MainStory from "../MainStory";
 import SecondaryStory from "../SecondaryStory";
 import OpinionStory from "../OpinionStory";
+import SectionTitle from "../SectionTitle";
 
 export default function MainStoryGrid() {
   return (
@@ -23,6 +24,7 @@ export default function MainStoryGrid() {
         </div>
       </section>
       <section className={styles.opinionStorySection}>
+        <SectionTitle>Opinión</SectionTitle>
         <div className={styles.storyList}>
           {OPINION_STORIES.map((story) => (
             <div

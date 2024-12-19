@@ -35,34 +35,36 @@ Más de 8 mil millones de personas en todo el mundo juegan videojuegos, ya sea d
 export const SECONDARY_STORIES = [
   {
     id: "b",
-    title: "Politicians scramble as court overrules invalid legislation",
+    title:
+      "Los políticos se apresuran mientras el tribunal anula la legislación inválida",
     image: {
       srcSmall: politiciansSmall,
       srcBig: politiciansBig,
-      alt: "Lots of white men in suits listen apathetically to a presentation",
+      alt: "Muchos hombres blancos con trajes escuchan apáticamente una presentación",
     },
-    abstract: `In a surprising judgment that surprised no one, the New Amsterdam court of appeals finds Bill 234 unconstitutional, overturning one of the Modern Sovereign party's core legislative achievements. Now, lawmakers are working furiously to rewrite the law before the Royal Ascent next month.`,
+    abstract: `En un juicio sorprendente que no sorprendió a nadie, el tribunal de apelaciones de Nueva Ámsterdam declara inconstitucional la Ley 234, anulando uno de los logros legislativos centrales del partido Modern Sovereign. Ahora, los legisladores están trabajando furiosamente para reescribir la ley antes del Asentimiento Real el próximo mes.`,
   },
   {
     id: "c",
-    title: "Vintage cars fetch a premium as car industry shifts gears",
+    title:
+      "Los coches vintage alcanzan un precio premium mientras la industria automotriz cambia de marcha",
     image: {
       srcSmall: oldCarSmall,
       srcBig: oldCarBig,
-      alt: "A vintage old Beetle (car), orange and with signs of wear",
+      alt: "Un viejo Beetle vintage (coche), naranja y con signos de desgaste",
     },
-    abstract: `In a Landsdowne auction, a vintage 1900s beetle sold “as-is” for ȿ120,000, shattering expectations and records alike. As the automotive industry focuses on ALVs (Autonomous Levitated Vehicles), some enthusiasts are paying big bucks for a more traditional driving experience.`,
+    abstract: `En una subasta de Landsdowne, un beetle vintage de 1900 vendido "tal cual" por ȿ120,000, rompiendo expectativas y récords por igual. A medida que la industria automotriz se enfoca en los ALV (Vehículos Autónomos Levantados), algunos entusiastas están pagando grandes sumas por una experiencia de conducción más tradicional.`,
   },
   {
     id: "d",
     title:
-      "This season’s hottest fashions unveiled amidst designer controversy",
+      "Las modas más calientes de esta temporada se revelan en medio de la controversia del diseñador",
     image: {
       srcSmall: fashionSmall,
       srcBig: fashionBig,
-      alt: "A stylish woman carries a dozen shopping bags",
+      alt: "Una mujer elegante lleva una docena de bolsas de compras",
     },
-    abstract: `Ludish Atvalatashia was in his 50s when he launched his first couture line. Famously, he worked as an engineer for Blue Rocket, and learned that many of his inventions were quite eye-catching on the runway. This week, though, whistleblowers from within his agency have revealed the toxic nature of their work environment.`,
+    abstract: `Ludish Atvalatashia tenía 50 años cuando lanzó su primera línea de alta costura. Famosamente, trabajó como ingeniero para Blue Rocket, y aprendió que muchos de sus inventos eran bastante llamativos en la pasarela. Esta semana, sin embargo, denunciantes desde dentro de su agencia han revelado la naturaleza tóxica de su entorno de trabajo.`,
   },
 ];
 
