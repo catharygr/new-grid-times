@@ -33,3 +33,7 @@
 .opinionStorySection {
   grid-area: opinion-stories;
 }
+
+.advertisementSection {
+  grid-area: advertisement;
+}

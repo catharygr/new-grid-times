@@ -4,6 +4,7 @@ import MainStory from "../MainStory";
 import SecondaryStory from "../SecondaryStory";
 import OpinionStory from "../OpinionStory";
 import SectionTitle from "../SectionTitle";
+import Advertisement from "../Advertisement";
 
 export default function MainStoryGrid() {
   return (
@@ -35,6 +36,9 @@ export default function MainStoryGrid() {
             </div>
           ))}
         </div>
+      </section>
+      <section className={styles.advertisementSection}>
+        <Advertisement />
       </section>
     </div>
   );
