@@ -36,10 +36,12 @@ export default function SpecialtyStoryGrid() {
         </SectionTitle>
         <section className={styles.sportsStory}>
           {SPORTS_STORIES.map((data) => (
-            <MiniStory
+            <div
+              className={styles.sportsStoryWrapper}
               key={data.id}
-              {...data}
-            />
+            >
+              <MiniStory {...data} />
+            </div>
           ))}
         </section>
       </section>
