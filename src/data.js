@@ -16,6 +16,16 @@ import ENB from "@/app/assets/images/stock-graph-down-1.svg";
 import GOOG from "@/app/assets/images/stock-graph-up-3.svg";
 import AMZN from "@/app/assets/images/stock-graph-down-2.svg";
 import MSFT from "@/app/assets/images/stock-graph-down-3.svg";
+import habsSmall from "@/app/assets/images/habs.jpg";
+import habsBig from "@/app/assets/images/habs@2x.jpg";
+import bicyclesSmall from "@/app/assets/images/bicycles.jpg";
+import bicyclesBig from "@/app/assets/images/bicycles@2x.jpg";
+import footballSmall from "@/app/assets/images/football.jpg";
+import footballBig from "@/app/assets/images/football@2x.jpg";
+import decathlonSmall from "@/app/assets/images/decathlon.jpg";
+import decathlonBig from "@/app/assets/images/decathlon@2x.jpg";
+import coachSmall from "@/app/assets/images/coach.jpg";
+import coachBig from "@/app/assets/images/coach@2x.jpg";
 
 export const MAIN_STORY = {
   id: "a",
@@ -148,7 +158,8 @@ export const SPORTS_STORIES = [
   {
     id: "s-a",
     image: {
-      src: "/images/habs.jpg",
+      srcSmall: habsSmall,
+      srcBig: habsBig,
       alt: "El portero de los Montreal Canadiens, Carey Price, cubriendo su red",
     },
     title: "Los Montreal Canadiens esperan ajustar cuentas en Las Vegas",
@@ -156,7 +167,8 @@ export const SPORTS_STORIES = [
   {
     id: "s-b",
     image: {
-      src: "/images/bicycles.jpg",
+      srcSmall: bicyclesSmall,
+      srcBig: bicyclesBig,
       alt: "Muchos hombres en lindos trajes a juego montando bicicletas",
     },
     title:
@@ -165,7 +177,8 @@ export const SPORTS_STORIES = [
   {
     id: "s-c",
     image: {
-      src: "/images/football.jpg",
+      srcSmall: footballSmall,
+      srcBig: footballBig,
       alt: "Un jugador de fútbol corre con el balón, mientras es perseguido por otro jugador",
     },
     title:
@@ -174,7 +187,8 @@ export const SPORTS_STORIES = [
   {
     id: "s-d",
     image: {
-      src: "/images/decathlon.jpg",
+      srcSmall: decathlonSmall,
+      srcBig: decathlonBig,
       alt: "Mujeres corriendo en una pista de carreras",
     },
     title: "El sorprendente resultado de este decatlón de verano",
@@ -182,7 +196,8 @@ export const SPORTS_STORIES = [
   {
     id: "s-3",
     image: {
-      src: "/images/coach.jpg",
+      srcSmall: coachSmall,
+      srcBig: coachBig,
       alt: "Un entrenador de fútbol coloca conos en un campo",
     },
     title: "Detrás de escena: entrenando a un equipo de la liga infantil",

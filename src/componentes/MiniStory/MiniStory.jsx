@@ -8,7 +8,7 @@ export default function MiniStory({ id, image, title }) {
       <article className={styles.wrapper}>
         <Image
           className={styles.img}
-          src={image}
+          src={image.srcSmall}
           alt={title}
           priority
         />
