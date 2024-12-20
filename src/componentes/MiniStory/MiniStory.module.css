@@ -6,7 +6,15 @@
 
 .img {
   width: 100%;
+  height: auto;
   aspect-ratio: 220 / 132;
   object-fit: cover;
   border-radius: 4px;
+}
+
+.h3 {
+  font-size: 1.125rem;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.3;
+  color: var(--color-gray-900);
 }

@@ -2,6 +2,7 @@ import styles from "./SpecialtyStoryGrid.module.css";
 import { MARKET_DATA, SPORTS_STORIES } from "@/data";
 import SectionTitle from "../SectionTitle";
 import MarketCard from "../MarketCard";
+import MiniStory from "../MiniStory/MiniStory";
 
 export default function SpecialtyStoryGrid() {
   return (
@@ -23,6 +24,24 @@ export default function SpecialtyStoryGrid() {
             />
           ))}
         </div>
+      </section>
+      <section className={styles.sportsSection}>
+        <SectionTitle
+          cornerLink={{
+            href: "/sports",
+            content: "Visitar página de Deportes »",
+          }}
+        >
+          Deportes
+        </SectionTitle>
+        <section className={styles.sportsStory}>
+          {SPORTS_STORIES.map((data) => (
+            <MiniStory
+              key={data.id}
+              {...data}
+            />
+          ))}
+        </section>
       </section>
     </div>
   );
