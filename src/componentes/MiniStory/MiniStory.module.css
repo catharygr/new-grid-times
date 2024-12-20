@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.img {
+  width: 100%;
+  aspect-ratio: 220 / 132;
+  object-fit: cover;
+  border-radius: 4px;
+}

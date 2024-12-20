@@ -1,6 +1,6 @@
 import styles from "./SpecialtyStoryGrid.module.css";
-import SectionTitle from "../SectionTitle";
 import { MARKET_DATA, SPORTS_STORIES } from "@/data";
+import SectionTitle from "../SectionTitle";
 import MarketCard from "../MarketCard";
 
 export default function SpecialtyStoryGrid() {
