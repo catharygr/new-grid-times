@@ -24,8 +24,6 @@ export default function MarketCard({
             className={styles.graphImg}
             src={graphSrc}
             alt="Imagen stock"
-            width={40}
-            height={20}
             priority
           />
         </div>
