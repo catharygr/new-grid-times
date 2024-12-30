@@ -36,8 +36,8 @@
 
 @media (min-width: 48rem) {
   .mainStorySection {
-    padding-right: 16px;
-    margin-right: 16px;
+    padding-right: 1rem;
+    margin-right: 1rem;
     border-right: 1px solid var(--color-gray-300);
   }
 }
@@ -48,8 +48,8 @@
 
 @media (min-width: 48rem) {
   .secondaryStoriesSection {
-    padding-right: 16px;
-    margin-right: 16px;
+    padding-right: 1rem;
+    margin-right: 1rem;
     border-right: 1px solid var(--color-gray-300);
   }
 }
@@ -57,6 +57,13 @@
 .storyList {
   display: flex;
   flex-direction: column;
+}
+
+@media (min-width: 48rem) {
+  .storyList {
+    flex-direction: row;
+    gap: 2rem;
+  }
 }
 
 .verticalStoryWrapper {
