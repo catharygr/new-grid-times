@@ -26,7 +26,7 @@ export default function MainStoryGrid() {
       </section>
       <section className={styles.opinionStorySection}>
         <SectionTitle>Opinión</SectionTitle>
-        <div className={styles.storyList}>
+        <div className={styles.opinionStoryList}>
           {OPINION_STORIES.map((story) => (
             <div
               className={styles.verticalStoryWrapper}
