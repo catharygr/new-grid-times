@@ -16,7 +16,7 @@
       "advertisement advertisement"
       "opinion-stories opinion-stories";
     grid-template-columns: 2fr 1fr;
-    gap: 48px 0px;
+    gap: 3rem 0;
   }
 }
 
@@ -34,8 +34,24 @@
   grid-area: main-story;
 }
 
+@media (min-width: 48rem) {
+  .mainStorySection {
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid var(--color-gray-300);
+  }
+}
+
 .secondaryStoriesSection {
   grid-area: secondary-stories;
+}
+
+@media (min-width: 48rem) {
+  .secondaryStoriesSection {
+    padding-right: 16px;
+    margin-right: 16px;
+    border-right: 1px solid var(--color-gray-300);
+  }
 }
 
 .storyList {
