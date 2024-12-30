@@ -4,11 +4,9 @@ import SpecialtyStoryGrid from "@/componentes/SpecialtyStoryGrid";
 
 export default function Home() {
   return (
-    <>
-      <main className={styles.main}>
-        <MainStoryGrid />
-        <SpecialtyStoryGrid />
-      </main>
-    </>
+    <main className={styles.main}>
+      <MainStoryGrid />
+      <SpecialtyStoryGrid />
+    </main>
   );
 }
