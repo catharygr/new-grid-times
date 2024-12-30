@@ -29,7 +29,7 @@ export default function MainStoryGrid() {
         <div className={styles.opinionStoryList}>
           {OPINION_STORIES.map((story) => (
             <div
-              className={styles.verticalStoryWrapper}
+              className={styles.opinionStoryWrapper}
               key={story.id}
             >
               <OpinionStory {...story} />

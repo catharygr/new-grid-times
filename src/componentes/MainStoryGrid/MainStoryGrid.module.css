@@ -60,7 +60,7 @@
 }
 
 @media (min-width: 48rem) and (max-width: 63.9375rem) {
-  .storyList {
+  .opinionStoryList {
     flex-direction: row;
     gap: 2rem;
   }
@@ -75,7 +75,7 @@
 }
 
 @media ((min-width: 48rem) and (max-width: 63.9375rem)) {
-  .verticalStoryWrapper {
+  .opinionStoryWrapper {
     flex: 1;
     &:not(:last-of-type) {
       border-bottom: revert;
