@@ -8,6 +8,9 @@
   .superHeader {
     display: none;
   }
+  .header {
+    padding: 2rem;
+  }
 }
 
 .row {
