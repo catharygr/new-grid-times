@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/componentes/Header";
+import Footer from "@/componentes/Footer";
 
 const chomsky = localFont({
   src: "./fonts/chomsky.woff2",
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
