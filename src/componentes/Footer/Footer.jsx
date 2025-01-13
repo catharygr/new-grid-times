@@ -4,8 +4,9 @@ import styles from "./Footer.module.css";
 export default function Footer() {
   return (
     <footer className={styles.wrapper}>
-      <div className={styles.maxWidthWrapper}></div>
-      <p>Footer</p>
+      <div className={styles.maxWidthWrapper}>
+        <div className={styles.topRow}></div>
+      </div>
     </footer>
   );
 }
