@@ -32,3 +32,8 @@
     justify-content: flex-end;
   }
 }
+
+.topNavList {
+  display: flex;
+  gap: 1rem;
+}
