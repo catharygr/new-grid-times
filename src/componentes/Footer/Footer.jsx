@@ -34,6 +34,11 @@ export default function Footer() {
             </Link>
           </div>
         </div>
+        <div className={styles.mainNavArea}>
+          <nav>
+            <h2 className={styles.mainNavHeading}>Careers</h2>
+          </nav>
+        </div>
       </div>
     </footer>
   );

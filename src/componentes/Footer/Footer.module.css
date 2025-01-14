@@ -37,3 +37,14 @@
   display: flex;
   gap: 1rem;
 }
+
+.mainNavHeading {
+  font-size: 1.125rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-gray-300);
+  margin-bottom: 8px;
+
+  @media (min-width: 64rem) {
+    align-items: flex-start;
+  }
+}
