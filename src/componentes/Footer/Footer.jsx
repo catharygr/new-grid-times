@@ -1,6 +1,7 @@
 import { Facebook, Instagram } from "react-feather";
 import styles from "./Footer.module.css";
 import Link from "next/link";
+import VisuallyHidden from "../VisuallyHidden/VisuallyHidden";
 
 export default function Footer() {
   return (
@@ -21,14 +22,14 @@ export default function Footer() {
             </ul>
           </nav>
           <div className={styles.social}>
-            <a href="/">
+            <Link href="/">
               <VisuallyHidden>Visit The Grid Times on Facebook</VisuallyHidden>
               <Facebook size={20} />
-            </a>
-            <a href="/">
+            </Link>
+            <Link href="/">
               <VisuallyHidden>Visit The Grid Times on Twitter</VisuallyHidden>
-              <Twitter size={20} />
-            </a>
+              <Instagram size={20} />
+            </Link>
           </div>
         </div>
       </div>
