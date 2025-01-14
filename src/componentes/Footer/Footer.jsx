@@ -20,6 +20,16 @@ export default function Footer() {
               </li>
             </ul>
           </nav>
+          <div className={styles.social}>
+            <a href="/">
+              <VisuallyHidden>Visit The Grid Times on Facebook</VisuallyHidden>
+              <Facebook size={20} />
+            </a>
+            <a href="/">
+              <VisuallyHidden>Visit The Grid Times on Twitter</VisuallyHidden>
+              <Twitter size={20} />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
