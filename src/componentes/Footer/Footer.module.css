@@ -1,3 +1,9 @@
+.wrapper {
+  color: var(--color-white);
+  background: var(--color-gray-900);
+  font-family: var(--font-family-sans-serif);
+}
+
 .maxWidthWrapper {
   position: relative;
   max-width: min(100%, calc(1200px + 32px * 2));
@@ -36,6 +42,21 @@
 .topNavList {
   display: flex;
   gap: 1rem;
+}
+
+.mainNavArea {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0 3rem;
+  text-align: center;
+
+  @media (min-width: 48rem) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    flex-direction: revert;
+    text-align: left;
+  }
 }
 
 .mainNavHeading {
