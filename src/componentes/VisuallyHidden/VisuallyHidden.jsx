@@ -1,3 +1,5 @@
+"use client";
+
 import styles from "./VisuallyHidden.module.css";
 import { useState, useEffect } from "react";
 

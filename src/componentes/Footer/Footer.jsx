@@ -11,23 +11,25 @@ export default function Footer() {
           <nav>
             <ul className={styles.topNavList}>
               <li>
-                <Link href="/">Acerca de</Link>
+                <Link href="/">Sobre nosotros</Link>
               </li>
               <li>
-                <Link href="/">Comunicados de Prensa</Link>
+                <Link href="/">Notas de prensa</Link>
               </li>
               <li>
-                <Link href="/">Contáctenos</Link>
+                <Link href="/">Contáctanos</Link>
               </li>
             </ul>
           </nav>
           <div className={styles.social}>
             <Link href="/">
-              <VisuallyHidden>Visit The Grid Times on Facebook</VisuallyHidden>
+              <VisuallyHidden>Visita The Grid Times en Facebook</VisuallyHidden>
               <Facebook size={20} />
             </Link>
             <Link href="/">
-              <VisuallyHidden>Visit The Grid Times on Twitter</VisuallyHidden>
+              <VisuallyHidden>
+                Visita The Grid Times en Instagram
+              </VisuallyHidden>
               <Instagram size={20} />
             </Link>
           </div>
