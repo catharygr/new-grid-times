@@ -92,4 +92,5 @@
 .logo {
   font-family: var(--font-family-logo);
   font-size: 2rem;
+  color: var(--color-gray-100);
 }
