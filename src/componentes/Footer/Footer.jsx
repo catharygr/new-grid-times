@@ -39,19 +39,19 @@ export default function Footer() {
             <h2 className={styles.mainNavHeading}>Descubre Contenido</h2>
             <ul className={styles.mainNavList}>
               <li>
-                <Link href="/">Política</Link>
+                <Link href="/pol">Política</Link>
               </li>
               <li>
-                <Link href="/">Tecnología</Link>
+                <Link href="/wrl">Mundo</Link>
               </li>
               <li>
-                <Link href="/">Cultura</Link>
+                <Link href="/fin">Finanzas</Link>
               </li>
               <li>
-                <Link href="/">Deportes</Link>
+                <Link href="/spo">Deportes y Entretenimiento</Link>
               </li>
               <li>
-                <Link href="/">Opinión</Link>
+                <Link href="/oped">Opinión y Editorial</Link>
               </li>
             </ul>
           </nav>
