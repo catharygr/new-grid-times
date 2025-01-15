@@ -112,7 +112,17 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles.subFooterWrapper}>
-        <div className={styles.maxWidthWrapper}></div>
+        <div className={styles.maxWidthWrapper}>
+          <div className={styles.subFooter}>
+            <Link
+              className={styles.logo}
+              href="/"
+            >
+              New Grid Times
+            </Link>
+            <p></p>
+          </div>
+        </div>
       </div>
     </footer>
   );
