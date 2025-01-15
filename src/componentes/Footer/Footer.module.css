@@ -73,9 +73,12 @@
 .mainNavList {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.25rem;
 }
 
 .subFooterWrapper {
   background-color: var(--color-offblack);
+  padding: 0.5rem 0;
+  /* Alineación óptica */
+  padding-bottom: 1rem;
 }
