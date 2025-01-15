@@ -111,6 +111,9 @@ export default function Footer() {
           </nav>
         </div>
       </div>
+      <div className={styles.subFooterWrapper}>
+        <div className={styles.maxWidthWrapper}></div>
+      </div>
     </footer>
   );
 }
