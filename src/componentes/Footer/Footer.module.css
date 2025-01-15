@@ -82,3 +82,14 @@
   /* Alineación óptica */
   padding-bottom: 1rem;
 }
+
+.subFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  font-family: var(--font-family-logo);
+  font-size: 2rem;
+}

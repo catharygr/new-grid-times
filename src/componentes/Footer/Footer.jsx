@@ -120,7 +120,7 @@ export default function Footer() {
             >
               New Grid Times
             </Link>
-            <p></p>
+            <p className={styles.disclaimer}></p>
           </div>
         </div>
       </div>
