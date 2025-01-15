@@ -79,33 +79,33 @@ export default function Footer() {
             <h2 className={styles.mainNavHeading}>Carreras</h2>
             <ul className={styles.mainNavList}>
               <li>
-                <Link href="/pol">Open Positions</Link>
+                <Link href="/pol">Ofertas de empleo</Link>
               </li>
               <li>
-                <Link href="/wrl">Meet the team</Link>
+                <Link href="/wrl">Conoce al equipo</Link>
               </li>
               <li>
-                <Link href="/fin">Company Culture</Link>
+                <Link href="/fin">Cultura empresarial</Link>
               </li>
             </ul>
           </nav>
           <nav>
-            <h2 className={styles.mainNavHeading}>Sitios Regionales</h2>
+            <h2 className={styles.mainNavHeading}>Legal y Privacidad</h2>
             <ul className={styles.mainNavList}>
               <li>
-                <Link href="/pol">New Grid Estados Unidos</Link>
+                <Link href="/pol">Política de privacidad</Link>
               </li>
               <li>
-                <Link href="/wrl">New Grid Europa</Link>
+                <Link href="/wrl">Uso de cookies</Link>
               </li>
               <li>
-                <Link href="/fin">New Grid Asia</Link>
+                <Link href="/fin">Gestionar cookies</Link>
               </li>
               <li>
-                <Link href="/spo">New Grid Marte y Más Allá</Link>
+                <Link href="/spo">Aviso legal</Link>
               </li>
               <li>
-                <Link href="/oped">New Grid Australia</Link>
+                <Link href="/oped">Términos y condiciones</Link>
               </li>
             </ul>
           </nav>
