@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
         <div className={styles.mainNavArea}>
           <nav>
-            <h2 className={styles.mainNavHeading}>Carreras</h2>
+            <h2 className={styles.mainNavHeading}>Descubre Contenido</h2>
           </nav>
         </div>
       </div>
