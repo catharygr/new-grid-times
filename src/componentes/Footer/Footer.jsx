@@ -37,6 +37,23 @@ export default function Footer() {
         <div className={styles.mainNavArea}>
           <nav>
             <h2 className={styles.mainNavHeading}>Descubre Contenido</h2>
+            <ul className={styles.mainNavList}>
+              <li>
+                <Link href="/">Política</Link>
+              </li>
+              <li>
+                <Link href="/">Tecnología</Link>
+              </li>
+              <li>
+                <Link href="/">Cultura</Link>
+              </li>
+              <li>
+                <Link href="/">Deportes</Link>
+              </li>
+              <li>
+                <Link href="/">Opinión</Link>
+              </li>
+            </ul>
           </nav>
         </div>
       </div>
