@@ -96,7 +96,7 @@
 }
 
 .disclaimer {
-  margin-top: -025rem;
+  margin-top: -0.25rem;
   font-size: 0.875rem;
-  c
+  color: var(--color-gray-500);
 }
