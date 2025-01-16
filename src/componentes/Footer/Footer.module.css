@@ -94,3 +94,7 @@
   font-size: 2rem;
   color: var(--color-gray-100);
 }
+
+.disclaimer {
+  margin-top: -025rem;
+}
