@@ -10,3 +10,10 @@
 
 - npm install
 - npm run dev
+
+### Componentes Principales son:
+
+- Header
+- MainStoryGrid
+- SpecialtyStory
+- Footer
