@@ -120,7 +120,9 @@ export default function Footer() {
             >
               New Grid Times
             </Link>
-            <p className={styles.disclaimer}></p>
+            <p className={styles.disclaimer}>
+              © 2025 Fake Company Ltd. Todos los derechos reservados.
+            </p>
           </div>
         </div>
       </div>
